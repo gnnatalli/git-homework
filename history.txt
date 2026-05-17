@@ -134,3 +134,12 @@
   134  git branch
   135  git merge feature
   136  history > history.txt
+  137  git add history.txt
+  138  git commit -m "add history"
+  139  git push origin main
+  140  git checkout -b main
+  141  git branch
+  142  git merge feature
+  143  git checkout main
+  144  git merge feature
+  145  history > history.txt
