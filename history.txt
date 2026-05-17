@@ -1,0 +1,136 @@
+    1  git config --global user.name "Nataliia"
+    2  git config --global user.email "gnnatalli@gmail.com"
+    3  git config --global -l
+    4  mkdir 060326-ptm
+    5  ls -a
+    6  ls -al
+    7  cd 060326-ptm
+    8  nano song.txt
+    9  cat ~/.ssh/id_rsa.pub
+   10  [200~
+   11  cat ~/.ssh/id_ed25519.pub
+   12  git remote add origin git@github.com:gnnatalli/060326-ptm.git
+   13  mkdir mygit
+   14  cd mygit
+   15  data >> date.txt
+   16  ls -al
+   17  git init
+   18  git add .
+   19  git commit -m "Inital commit"
+   20  git remote add origin git@github.com:gnnatalli/060326-ptm.git
+   21  mkdir gittest1
+   22  cd gittest1
+   23  git init
+   24  echo "# 060326-ptm" >> README.md
+   25  git init
+   26  git add README.md
+   27  git commit -m "first commit"
+   28  git branch -M main
+   29  git remote add origin git@github.com:gnnatalli/060326-ptm.git
+   30  git push -u origin main
+   31  git push -u origin main
+   32  ls -al
+   33  git status
+   34  git pull
+   35  git pull
+   36  git log
+   37  git branch test
+   38  git branch -v
+   39  git checkout maim
+   40  git checkout main
+   41  git branch -v
+   42  git log
+   43  ls -al
+   44  cat date.txt
+   45  echo "Hello new branch!" >> NewFile.txt
+   46  git status
+   47  git add NewFile.txt 
+   48  git status
+   49  git commit -m "Add NewFile.txt"
+   50  ls -al
+   51  git log
+   52  git checkout main
+   53  git log
+   54  ls -al
+   55  git branch -v
+   56  git status
+   57  ls -al
+   58  git checkaut main
+   59  ls -al
+   60  git checkout Newbranch
+   61  mkdir git_intro
+   62  cd git_intro
+   63  git init
+   64  git add photo.jpd
+   65  git add photo.jpd
+   66  ls
+   67  git add photo.jpg
+   68  git commit -m "Added photo"
+   69  git branch -M main
+   70  git remote add origin git@github.com:gnnatalli/git_intro.git
+   71  git push -u origin main
+   72  cd /opt/060326-ptm/Nataliia
+   73  #!/bin/bash
+   74  for i in {1..10}; do echo $i; done
+   75  nano script.sh
+   76  nano script.sh
+   77  mkdir git-branch
+   78  cd git-branch
+   79  git init
+   80  git checkout -b gitignore
+   81  nano .gitignore
+   82  git add .
+   83  git commit -m "add .gitignore file"
+   84  git remote add origin git@github.com:gnnatalli/git-branch.git
+   85  git push -u origin gitignore
+   86  ls -al 0060326-ptm/
+   87  git status
+   88  git pull
+   89  git log -- all --oneline
+   90  git checkout -b test-merge
+   91  ls -al/060326-ptm
+   92  ls --help
+   93  git checkout -b test-merge
+   94  ls -al/00600326-ptm
+   95  git checkout -b test-merge
+   96  ls -al
+   97  cd/User/ICH/GIT/0060326-ptm/Nataliia
+   98  cd/User/ICH/GIT/0060326-ptm
+   99  cd /home/User/ICH/060326-ptm/
+  100  cd opt/User/ICH/0600326-ptm
+  101  cd /GIT/060326-ptm
+  102  cd ..GIT/060326-ptm
+  103  nano cleanup.sh
+  104  git clone git@github.com:gnnatalli/git-homework.git
+  105  cd git-task
+  106  ls
+  107  cd git-homework
+  108  git status
+  109  git checkout -b feature
+  110  nano README.md
+  111  ls
+  112  cd gir-homework
+  113  cd git-homework
+  114  git branch
+  115  nano README.md 
+  116  cat README.md 
+  117  nano .gitignore
+  118  nano .gitignore
+  119  git add README.md .gitignore 
+  120  git commit -m "feature work"
+  121  git push origin feature
+  122  git commit --amend -m "feature work ammend"
+  123  git push --force
+  124  git push --set-upstream origin feature
+  125  git pull origin feature --rebase
+  126  git push --set-upstream origin feature
+  127  git commit --amend -m "feature work ammend"
+  128  git push --force
+  129  git checkout main
+  130  git brance
+  131  git branch
+  132  git branch -a
+  133  git checkout -b main
+  134  git branch
+  135  git merge feature
+  136  history > history.txt
